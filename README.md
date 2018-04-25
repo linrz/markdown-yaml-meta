@@ -1,9 +1,8 @@
 # markdown-yaml-meta
 
 ## Usage
-```shell
-npm install markdown-yaml-meta
-
+```sh
+$ npm install markdown-yaml-meta
 ```
 ## Examples
 ```
@@ -42,7 +41,7 @@ console.log(data);
 */
 
 const dataWithPreview = MetaParser(target, { preview: { length: 10 } });
-console.log(dataWithRawPreview);
+console.log(dataWithPreview);
 /*
     {
         ...
