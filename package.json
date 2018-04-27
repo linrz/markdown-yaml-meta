@@ -1,0 +1,22 @@
+{
+  "name": "markdown-yaml-meta",
+  "version": "0.0.1",
+  "description": "A package for parse yaml description in markdown",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linrz/markdown-yaml-meta.git"
+  },
+  "author": "linrz@lastwhisper.cn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/linrz/markdown-yaml-meta/issues"
+  },
+  "homepage": "https://github.com/linrz/markdown-yaml-meta#readme",
+  "dependencies": {
+    "js-yaml": "^3.11.0"
+  }
+}

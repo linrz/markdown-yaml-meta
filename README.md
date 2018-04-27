@@ -10,7 +10,7 @@ $ npm install markdown-yaml-meta
 layout:     post
 title:      "Hello World"
 date:       2018-04-26 00:00:00
-author:     "linrunze"
+author:     "linrz"
 tags:
     - Node.js
 ---
@@ -45,7 +45,7 @@ console.log(dataWithPreview);
 /*
     {
         ...
-        "preview": "#Hello\n He"
+        "preview": "#Hello\n He..."
     }
 */
 
@@ -54,10 +54,18 @@ console.log(dataWithRawPreview);
 /*
     {
         ...
-        "preview": "Hello Wrol"
+        "preview": "Hello Wrol..."
     }
 */
 
+const dataWithBody = MetaParser(target, { body: true });
+console.log(dataWithBody);
+/*
+    {
+        ...
+        "body": "# Hello Wrold\n> Hello..."
+    }
+*/
 ```
 
 ## Contributing
