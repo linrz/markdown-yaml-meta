@@ -4,7 +4,7 @@
   "description": "A package for parse yaml description in markdown",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/.bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "homepage": "https://github.com/linrz/markdown-yaml-meta#readme",
   "dependencies": {
     "js-yaml": "^3.11.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.1.1"
   }
 }
