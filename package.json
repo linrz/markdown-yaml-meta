@@ -20,6 +20,8 @@
     "js-yaml": "^3.11.0"
   },
   "devDependencies": {
-    "mocha": "^5.1.1"
+    "mocha": "^5.1.1",
+    "codecov": "^3.0.1",
+    "istanbul": "^0.4.5"
   }
 }

@@ -1,5 +1,5 @@
 # markdown-yaml-meta
-
+![ci](https://travis-ci.org/linrz/markdown-yaml-meta.svg?branch=master)   ![NPM downloads](https://img.shields.io/npm/dt/markdown-yaml-meta.svg)
 ## Usage
 ```sh
 $ npm install markdown-yaml-meta
